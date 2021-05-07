@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T13:54:33.871Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="3M1xNzsrR0Fn8j_ZjzFk" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T13:56:48.581Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="akH5DtveXCr4NY9rp_mL" version="14.6.11" type="github">
   <diagram id="Dh_qDPzgqrRzBCMRFW5f" name="Page-1">
     <mxGraphModel dx="2062" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,8 +164,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6-K_7Z8hWviK-rHHWbJY-43" value="最关键就是上下线信息，可以存全量，存储在redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="900" width="280" height="20" as="geometry" />
+        <mxCell id="6-K_7Z8hWviK-rHHWbJY-43" value="最关键就是上下线信息，之前的几个问题都是这个导致，上下线信息占内存很少，可以存全量，存储在redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="900" width="580" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-44" value="msgpipe启动将自己的ip:port存到redis，可以用hash，带有时间，msgpipe定期轮询，通过时间可以判断msgpipe是不是运行正常" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="930" width="690" height="20" as="geometry" />
@@ -176,8 +176,8 @@
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-46" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;每个节点上下线，msgpipe都会发布到redis，订阅该主题的其他msgpipe会收到这个节点在哪个msgpipe上线的信息，以此更新到自己内存&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="990" width="840" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6-K_7Z8hWviK-rHHWbJY-48" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;每个节点上下线，msgpipe也会维护一个上线列表，存储到redis，msgpipe会定期轮询，同步到内存，但是周期可以比较长，根据全量+增量的信息，每一个msgpipe对于节点的上下线就基本同步了，时延很小&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1030" width="1100" height="30" as="geometry" />
+        <mxCell id="6-K_7Z8hWviK-rHHWbJY-48" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;每个节点上下线，msgpipe也会维护一个上线列表，存储到redis，msgpipe会定期轮询，同步到内存，但是周期可以比较长，根据全量+增量的信息，每一个msgpipe对于所有节点的上下线就基本同步了，时延也不会很大&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1030" width="1170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-49" value="当收到消息，msgpipe可以通过查询内存的方式直接决定应该直接下发还是通过redis发送跨msgpipe的消息，由于上下线消息增量同步很快，所以可以认为所有msgpipe的在线状态是一致的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="1070" width="1010" height="20" as="geometry" />
