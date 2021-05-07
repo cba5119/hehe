@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T13:56:48.581Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="akH5DtveXCr4NY9rp_mL" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:24:24.931Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="zDz3H2kb92QSG0Qi2MTD" version="14.6.11" type="github">
   <diagram id="Dh_qDPzgqrRzBCMRFW5f" name="Page-1">
     <mxGraphModel dx="2062" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,10 +183,16 @@
           <mxGeometry x="60" y="1070" width="1010" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-50" value="由于都是内存操作，在发送rms这种一对多的消息就会非常快，可以解决之前这种类型消息会堆积的问题，同时也大大减小了不必要的轮询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1110" width="740" height="20" as="geometry" />
+          <mxGeometry x="70" y="1110" width="740" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-51" value="可以把redis换成专门的消息队列，增强性能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="1140" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6-K_7Z8hWviK-rHHWbJY-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.256;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-K_7Z8hWviK-rHHWbJY-48" target="6-K_7Z8hWviK-rHHWbJY-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-K_7Z8hWviK-rHHWbJY-53" value="可以在redis用zset存储msgpipe到底发了哪些消息给客户端，可以先存到内存里，然后定时存到redis，只存消息id，消息内容可以根据id在redis中另外存一份，查询时组合即可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1169" width="940" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
