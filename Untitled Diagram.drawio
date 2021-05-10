@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T09:45:57.718Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="7MTUQVqD8vZozmBQpcSR" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T09:48:05.825Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="WXTNHXXUMROjZ0PSQa89" version="14.6.10" type="github">
   <diagram id="Dh_qDPzgqrRzBCMRFW5f" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,16 +92,17 @@
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-5" value="客户端2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="110" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6-K_7Z8hWviK-rHHWbJY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="i4T0F8s3X3L2UOJmZFRl-1" target="6-K_7Z8hWviK-rHHWbJY-2" edge="1">
+        <mxCell id="6-K_7Z8hWviK-rHHWbJY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6-K_7Z8hWviK-rHHWbJY-6" target="6-K_7Z8hWviK-rHHWbJY-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="260" y="730" />
+              <mxPoint x="370" y="660" />
+              <mxPoint x="260" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-16" value="获取severlist 订阅主题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6-K_7Z8hWviK-rHHWbJY-15" vertex="1" connectable="0">
           <mxGeometry x="0.1644" y="1" relative="1" as="geometry">
-            <mxPoint x="-19" y="53" as="offset" />
+            <mxPoint x="51" y="60" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6-K_7Z8hWviK-rHHWbJY-6" target="6-K_7Z8hWviK-rHHWbJY-2" edge="1">
@@ -114,21 +115,25 @@
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-33" value="定期获取全量上线信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6-K_7Z8hWviK-rHHWbJY-32" vertex="1" connectable="0">
           <mxGeometry x="-0.481" relative="1" as="geometry">
-            <mxPoint x="9" y="-15" as="offset" />
+            <mxPoint x="-81" y="-195" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-6" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6-K_7Z8hWviK-rHHWbJY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="i4T0F8s3X3L2UOJmZFRl-1" edge="1">
+        <mxCell id="6-K_7Z8hWviK-rHHWbJY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6-K_7Z8hWviK-rHHWbJY-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="625" as="sourcePoint" />
+            <mxPoint x="420" y="650" as="sourcePoint" />
             <mxPoint x="540" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="660" />
+              <mxPoint x="540" y="660" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-18" value="获取severlist 订阅主题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6-K_7Z8hWviK-rHHWbJY-17" vertex="1" connectable="0">
           <mxGeometry x="0.1644" y="1" relative="1" as="geometry">
-            <mxPoint x="-19" y="64" as="offset" />
+            <mxPoint x="-49" y="60" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6-K_7Z8hWviK-rHHWbJY-3" target="i4T0F8s3X3L2UOJmZFRl-1" edge="1">
@@ -163,7 +168,7 @@
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-38" value="定期获取全量上线信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6-K_7Z8hWviK-rHHWbJY-37" vertex="1" connectable="0">
           <mxGeometry x="-0.481" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="53" y="-205" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-43" value="最关键就是上下线信息，之前的几个问题都是这个导致，上下线信息占内存很少，可以存全量，存储在redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
