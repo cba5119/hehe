@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T16:51:09.658Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="LRcUqgpdjTRvUetJhbBn" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T16:51:31.715Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="az1lOnSBaFp0nMPZvSem" version="14.6.11" type="github">
   <diagram id="Dh_qDPzgqrRzBCMRFW5f" name="Page-1">
     <mxGraphModel dx="2062" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,9 +220,6 @@
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-51" value="可以把redis换成专门的消息队列，增强性能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="1140" width="250" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="6-K_7Z8hWviK-rHHWbJY-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.256;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6-K_7Z8hWviK-rHHWbJY-48" target="6-K_7Z8hWviK-rHHWbJY-48" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-53" value="可以在redis用zset存储msgpipe到底发了哪些消息给客户端，可以先存到内存里，然后定时存到redis，只存消息id，消息内容可以根据id在redis中另外存一份，查询时组合即可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="1169" width="940" height="20" as="geometry" />
