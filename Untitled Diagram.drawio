@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T09:50:14.489Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="ifWPcgESUV7GEdm-33BK" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T09:51:04.157Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="olxerS2tdYhXQZavfcVn" version="14.6.10" type="github">
   <diagram id="Dh_qDPzgqrRzBCMRFW5f" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,6 +226,12 @@
         </mxCell>
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-53" value="可以在redis用zset存储msgpipe到底发了哪些消息给客户端，可以先存到内存里，然后定时存到redis，只存消息id，消息内容可以根据id在redis中另外存一份，查询时组合即可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="1169" width="940" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i4T0F8s3X3L2UOJmZFRl-1" target="6-K_7Z8hWviK-rHHWbJY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.917;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i4T0F8s3X3L2UOJmZFRl-1" target="6-K_7Z8hWviK-rHHWbJY-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i4T0F8s3X3L2UOJmZFRl-1" value="消息队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="700" width="120" height="60" as="geometry" />
