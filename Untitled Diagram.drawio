@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T09:51:04.157Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="olxerS2tdYhXQZavfcVn" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T16:51:09.658Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="LRcUqgpdjTRvUetJhbBn" version="14.6.11" type="github">
   <diagram id="Dh_qDPzgqrRzBCMRFW5f" name="Page-1">
-    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,10 +53,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i4T0F8s3X3L2UOJmZFRl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-K_7Z8hWviK-rHHWbJY-2" target="6-K_7Z8hWviK-rHHWbJY-6">
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="6-K_7Z8hWviK-rHHWbJY-2" target="6-K_7Z8hWviK-rHHWbJY-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i4T0F8s3X3L2UOJmZFRl-3" value="存储离线消息/最近所有消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i4T0F8s3X3L2UOJmZFRl-2">
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-3" value="存储离线消息/最近所有消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i4T0F8s3X3L2UOJmZFRl-2" vertex="1" connectable="0">
           <mxGeometry x="0.2129" y="2" relative="1" as="geometry">
             <mxPoint x="22" y="-13" as="offset" />
           </mxGeometry>
@@ -85,7 +85,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i4T0F8s3X3L2UOJmZFRl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-K_7Z8hWviK-rHHWbJY-3" target="6-K_7Z8hWviK-rHHWbJY-6">
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="6-K_7Z8hWviK-rHHWbJY-3" target="6-K_7Z8hWviK-rHHWbJY-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="640" y="465" />
@@ -93,12 +93,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="i4T0F8s3X3L2UOJmZFRl-5" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%AD%98%E5%82%A8%E7%A6%BB%E7%BA%BF%E6%B6%88%E6%81%AF%2F%E6%9C%80%E8%BF%91%E6%89%80%E6%9C%89%E6%B6%88%E6%81%AF%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22580%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i4T0F8s3X3L2UOJmZFRl-4">
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-5" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%AD%98%E5%82%A8%E7%A6%BB%E7%BA%BF%E6%B6%88%E6%81%AF%2F%E6%9C%80%E8%BF%91%E6%89%80%E6%9C%89%E6%B6%88%E6%81%AF%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22580%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i4T0F8s3X3L2UOJmZFRl-4" vertex="1" connectable="0">
           <mxGeometry x="0.2833" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i4T0F8s3X3L2UOJmZFRl-7" value="存储离线消息/最近所有消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i4T0F8s3X3L2UOJmZFRl-4">
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-7" value="存储离线消息/最近所有消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i4T0F8s3X3L2UOJmZFRl-4" vertex="1" connectable="0">
           <mxGeometry x="0.2111" y="1" relative="1" as="geometry">
             <mxPoint x="88" y="-46" as="offset" />
           </mxGeometry>
@@ -227,14 +227,17 @@
         <mxCell id="6-K_7Z8hWviK-rHHWbJY-53" value="可以在redis用zset存储msgpipe到底发了哪些消息给客户端，可以先存到内存里，然后定时存到redis，只存消息id，消息内容可以根据id在redis中另外存一份，查询时组合即可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="1169" width="940" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="i4T0F8s3X3L2UOJmZFRl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i4T0F8s3X3L2UOJmZFRl-1" target="6-K_7Z8hWviK-rHHWbJY-2">
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="i4T0F8s3X3L2UOJmZFRl-1" target="6-K_7Z8hWviK-rHHWbJY-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i4T0F8s3X3L2UOJmZFRl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.917;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i4T0F8s3X3L2UOJmZFRl-1" target="6-K_7Z8hWviK-rHHWbJY-3">
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.917;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="i4T0F8s3X3L2UOJmZFRl-1" target="6-K_7Z8hWviK-rHHWbJY-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i4T0F8s3X3L2UOJmZFRl-1" value="消息队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i4T0F8s3X3L2UOJmZFRl-1" value="消息队列" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hi9Zfv6pbtjVRCWGWGrU-1" value="或者如果redis内存不太够，存在mysql也是可以的，存在另外的日志表里用于后续查询用的，可以后台异步慢慢写入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1200" width="620" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
